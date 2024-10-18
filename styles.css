@@ -230,9 +230,13 @@ body{
 
 @media (max-width: 768px) {
     .banner{
-        height: 70vh;
+        height: 90vh;
     }
 
+    .banner-title h5{
+        font-size: 300%;
+        text-wrap: pretty;
+    }
     .step{
         height: 50vh;
     }
