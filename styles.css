@@ -7,27 +7,27 @@
 /* Clash Display */
 @font-face {
     font-family: 'ClashDisplay-Bold';
-    src: url(../resources/fonts/clash-display/ClashDisplay-Bold.otf);
+    src: url(fonts/clash-display/ClashDisplay-Bold.otf);
 }
 @font-face {
     font-family: 'ClashDisplay-Extralight';
-    src: url(../resources/fonts/clash-display/ClashDisplay-Extralight.otf);
+    src: url(fonts/clash-display/ClashDisplay-Extralight.otf);
 }
 @font-face {
     font-family: 'ClashDisplay-Light';
-    src: url(../resources/fonts/clash-display/ClashDisplay-Light.otf);
+    src: url(fonts/clash-display/ClashDisplay-Light.otf);
 }
 @font-face {
     font-family: 'ClashDisplay-Medium';
-    src: url(../resources/fonts/clash-display/ClashDisplay-Medium.otf);
+    src: url(fonts/clash-display/ClashDisplay-Medium.otf);
 }
 @font-face {
     font-family: 'ClashDisplay-Regular';
-    src: url(../resources/fonts/clash-display/ClashDisplay-Regular.otf);
+    src: url(fonts/clash-display/ClashDisplay-Regular.otf);
 }
 @font-face {
     font-family: 'ClashDisplay-Semibold';
-    src: url(../resources/fonts/clash-display/ClashDisplay-Semibold.otf);
+    src: url(fonts/clash-display/ClashDisplay-Semibold.otf);
 }
 .navbar{
 
