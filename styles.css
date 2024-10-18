@@ -262,6 +262,7 @@ body{
     .step-title h5{
         font-size: 250%;
     }
+
     main{
         background-color: black;
         height: 500vh;
@@ -271,8 +272,5 @@ body{
         width: 200% !important;
     }
 
-    .banner-prototype img{
-        width: 300%;
- 
-    }
+   
 }
