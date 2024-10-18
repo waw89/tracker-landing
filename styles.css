@@ -1,0 +1,185 @@
+/*
+
+    Adding external fonts
+
+*/
+
+/* Clash Display */
+@font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Bold.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Extralight';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Extralight.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Light';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Light.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Medium.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Regular.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Semibold.otf);
+}
+.navbar{
+
+    background-color: black !important;
+}
+
+body{
+    background-color: black;
+}
+
+.navbar-brand img{
+    width: 20%;
+}
+.banner{
+    
+    background-color: black;
+    height: 100vh;
+    text-align: center;
+}
+
+.banner h5 {
+    margin-top: 8vh;
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 6vw;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.banner-prototype{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 40vh;
+}
+
+
+
+
+.tracker-img{
+    position: sticky;
+}
+
+
+
+
+
+
+.banner-prototype:hover #tracker-image {
+    transform: scale(1.2); /* Scale up the image when hovered */
+}
+
+
+#tracker-image {
+    transition: transform 0.3s ease, opacity 3s ease; /* Ensure smooth transition for movement and fading */
+}
+
+.moving-image {
+    opacity: 0; /* Fade out */
+}
+
+.steps{
+    background-color: black;
+    height: 250vh;
+}
+.step{
+    background-color: black;
+    height: 30vh;
+    color: white;
+}
+
+.step-2, .step-3, .step-4{
+    margin-top: 30vh;
+
+}
+.step-elements{
+    display: flex;
+    align-items: center;
+}
+
+.step-title h5{
+    text-align: left;
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 350%;
+}
+
+.step-description p{
+    text-align: left;
+    font-family: 'ClashDisplay-Medium';
+    font-size: 150%;
+
+}
+
+
+.render{
+    background-color: black;
+}
+
+
+.sale-img img{
+
+    width: 200%;
+}
+
+.sale-information{
+    color: white;
+}
+
+.sale-elements{
+    display: flex;
+    font-family: 'ClashDisplay-Medium';
+    align-items: center;
+}
+
+.sale-title h5{
+    font-size: 350%;
+    text-align: left;
+}
+
+.sale-description{
+    text-align: left;
+    font-size: 150%;
+
+}
+
+.cta-last{
+    margin-top: 5vh;
+}
+
+.cta-last button{
+
+    font-size: 150%;
+    width: 30vw;
+}
+
+.sale-price h5{
+    font-size: 200%;
+    text-align: left;
+    font-family: "ClashDisplay-Semibold";
+}
+
+.render{
+    height: 100vh;
+}
+
+.buy-header h5{
+
+    margin-bottom: 10vh;
+ 
+    color: white;
+    font-family: "ClashDisplay-Semibold";
+    font-size: 450%;
+}
