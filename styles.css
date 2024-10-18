@@ -36,6 +36,7 @@
 
 body{
     background-color: black;
+    overflow-x: hidden;
 }
 
 .navbar-brand img{
@@ -99,7 +100,10 @@ body{
     background-color: black;
     height: 30vh;
     color: white;
+        
 }
+
+
 
 .step-2, .step-3, .step-4{
     margin-top: 30vh;
@@ -183,3 +187,40 @@ body{
     font-family: "ClashDisplay-Semibold";
     font-size: 450%;
 }
+
+
+.buy-header {
+    transform: translateX(400%);
+    transition: transform 0.4s ease; 
+}
+.buy-header.show{
+    transform: translateX(0);
+}
+
+.buy-header:nth-of-type(even){
+    transform: translateX(-400%);
+}
+
+.buy-header.show{
+    transform:translateX(0); 
+
+}
+    
+
+.step {
+    transform: translateX(400%);
+    transition: transform 0.4s ease; 
+}
+.step.show{
+    transform: translateX(0);
+}
+
+.step:nth-of-type(even){
+    transform: translateX(-400%);
+}
+
+.step.show{
+    transform:translateX(0); 
+
+}
+    
