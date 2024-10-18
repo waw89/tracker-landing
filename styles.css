@@ -223,4 +223,56 @@ body{
     transform:translateX(0); 
 
 }
+
+@media (max-width: 768px) {
+    .banner{
+        height: 70vh;
+    }
+
+    .step{
+        height: 50vh;
+    }
+    .buy-header h5{
+        font-size: 250%;
+    }
+
+    .step-img img{
+        width: 100%;
+    }
+
+    .steps{
+        height: 370vh   ;
+    }
+    .step {
+        transform: translateX(0); 
+    }
+
+    .step:nth-of-type(even){
+        transform: none; 
+    }
+
+    .buy-header {
+        transform: translateX(0); 
+    }
+    .cta-last button{
+        width: 100%;
     
+    }
+
+    .step-title h5{
+        font-size: 250%;
+    }
+    main{
+        background-color: black;
+        height: 500vh;
+    }
+
+    .sale-img img{
+        width: 200% !important;
+    }
+
+    .banner-prototype img{
+        width: 300%;
+ 
+    }
+}
