@@ -67,6 +67,10 @@ body{
     height: 40vh;
 }
 
+.banner-prototype .row{
+    display: flex;
+    justify-content: center;
+}
 
 
 
